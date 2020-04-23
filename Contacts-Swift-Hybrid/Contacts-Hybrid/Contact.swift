@@ -8,12 +8,15 @@
 
 import Foundation
 
-class Contact {
+// "@objcMembers" will make everything in the class available
+// "@objc" in front of the only things within the class we want available
+
+@objc class Contact: NSObject {
     
     var name: String
     var relationship: String?
     
-    init(name: String, relationship: String? = nil) {
+    @objc init(name: String, relationship: String? = nil) {
         self.name = name
         self.relationship = relationship
     }
