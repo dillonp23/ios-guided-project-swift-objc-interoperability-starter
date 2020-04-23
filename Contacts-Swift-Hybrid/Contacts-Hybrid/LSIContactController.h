@@ -16,6 +16,11 @@ NS_SWIFT_NAME(ContactController)
 @interface LSIContactController : NSObject
 
 @property (nonatomic, readonly, copy, nonnull) NSArray<LSIContact *> *contacts;
+//@property (nonatomic, readonly, copy) NSDictionary<NSString *, Contact *> *contactsDictionary; // How to write for a dictionary with lightweight generics
+
+- (LSIContact *)contactAtIndex:(NSInteger)index;
+
+@property (nonatomic, readonly) NSInteger contactCount;
 
 
 @end
