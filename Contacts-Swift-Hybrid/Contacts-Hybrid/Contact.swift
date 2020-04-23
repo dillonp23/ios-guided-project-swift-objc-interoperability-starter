@@ -11,7 +11,7 @@ import Foundation
 // "@objcMembers" will make everything in the class available
 // "@objc" in front of the only things within the class we want available
 
-@objc class Contact: NSObject {
+@objc(LSIContact) class Contact: NSObject {
     
     var name: String
     var relationship: String?
