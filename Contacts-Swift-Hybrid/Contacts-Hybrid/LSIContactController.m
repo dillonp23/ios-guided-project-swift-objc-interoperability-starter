@@ -6,11 +6,11 @@
 //  Copyright © 2020 Lambda, Inc. All rights reserved.
 //
 
-#import "ContactController.h"
+#import "LSIContactController.h"
 #import "Contacts_Hybrid-Swift.h"
 
 
-@interface ContactController ()
+@interface LSIContactController ()
 
 @property (nonatomic) NSMutableArray *internalContacts;
 
@@ -18,7 +18,7 @@
 
 
 
-@implementation ContactController
+@implementation LSIContactController
 
 
 - (instancetype)init
