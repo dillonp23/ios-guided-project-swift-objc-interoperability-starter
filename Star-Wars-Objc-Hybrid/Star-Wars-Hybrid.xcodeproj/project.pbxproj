@@ -329,6 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lambdaschool.Star-Wars-Hybrid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Star-Wars-Hybrid/Resources/Star-Wars-Hybrid-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,6 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lambdaschool.Star-Wars-Hybrid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Star-Wars-Hybrid/Resources/Star-Wars-Hybrid-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

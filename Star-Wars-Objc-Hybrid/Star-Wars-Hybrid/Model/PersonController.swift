@@ -14,7 +14,7 @@ enum APIError: String, Error {
     case JSONMissingResults
 }
 
-class PersonController: NSObject {
+@objc class PersonController: NSObject {
     // docs: https://lambdaswapi.herokuapp.com/people
     private let baseURL = URL(string: "https://lambdaswapi.herokuapp.com/api/people")!
     static let shared = PersonController()
